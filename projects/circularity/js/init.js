@@ -92,6 +92,8 @@ var circles = [];
             if ( circle.y < 0) {
                 circle.y = canvas.height;
             }
+        }
+        
 
 
 
