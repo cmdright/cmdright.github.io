@@ -36,25 +36,25 @@ var circles = []
         ///////////////// PROGRAM LOGIC ////////////////////////////
         ////////////////////////////////////////////////////////////
         // TODO 3 / 7 : Call the drawCircle() function 
-        /* 
+        /*
+       drawCircle();
         drawCircle();
         drawCircle();
         drawCircle();
         drawCircle();
-        drawCircle();
-       
+
         This Function is called 60 times/second producing 60 frames/second.
         In each frame, for every circle, it should redraw that circle
         and check to see if it has drifted off the screen.         
         */
-      {  function update() {
+      function update() {
             // TODO 4 : Update the circle's position //
             physikz.updatePosition(circles[0]);
             physikz.updatePosition(circles[1]);
             physikz.updatePosition(circles[2]);
             physikz.updatePosition(circles[3]);
             physikz.updatePosition(circles[4]);
-        }
+        
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
            
 
